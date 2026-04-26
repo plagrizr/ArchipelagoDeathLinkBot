@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "github_tag": "v1.0.0",
+      "github_title": "DeathLink Bot v1.0.0 — Initial Release",
+      "asset_url": "https://github.com/plagrizr/ArchipelagoDeathLinkBot/releases/download/v1.0.0/DeathLink-v1.0.0.exe",
+      "notes": [
+        "Initial public release",
+        "Twitch integration with T1/T2/T3 sub tier coin multipliers",
+        "TikTok LIVE integration via EulerStream signing key",
+        "Archipelago DeathLink relay via local port proxy",
+        "Coin economy: bits, subs, gift subs, TikTok gifts",
+        "Chat announcement toggle",
+        "Always-on-top pin button",
+        "Auto-update support via Settings > Updates"
+      ]
+    }
+  ]
+}
