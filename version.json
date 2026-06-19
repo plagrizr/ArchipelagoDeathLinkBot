@@ -1,6 +1,27 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "changelog": [
+    {
+      "version": "1.1.0",
+      "github_tag": "v1.1.0",
+      "github_title": "DeathLink Bot v1.1.0",
+      "asset_url": "https://github.com/plagrizr/ArchipelagoDeathLinkBot/releases/download/v1.1.0/DeathLink-v1.1.0.exe",
+      "notes": [
+        "Added About dialog — click the plagrizr logo to view bot info and creator link",
+        "Replaced dashboard header logo with plagrizr branding",
+        "Added app icon (Toxic.png) for window and built exe",
+        "Added Settings > Updates tab — check for updates and auto-install in-app",
+        "Added opt-in transaction log (Settings > Economy > Logging) — records every credit and spend to a local file",
+        "Added automated 24-hour database backup on the API (stored in PostgreSQL, last 14 days retained)",
+        "Masked Twitch OAuth token in Settings for security",
+        "Fixed TikTok not-live spam — now logs once per offline stretch instead of every 30 seconds",
+        "Fixed TikTok auto-starting on boot without user input",
+        "Fixed Connect TikTok button not updating state after click",
+        "Fixed build.bat false-failure — PyInstaller warnings no longer trigger a failed build",
+        "Build now auto-generates Toxic.ico from Toxic.png and stamps a versioned exe copy",
+        "Fixed TikTokLive nickName TypeError crashing comment, gift, and subscribe handlers"
+      ]
+    },
     {
       "version": "1.0.0",
       "github_tag": "v1.0.0",
