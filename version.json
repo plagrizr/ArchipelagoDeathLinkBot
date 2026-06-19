@@ -4,8 +4,8 @@
     {
       "version": "1.1.0",
       "github_tag": "v1.1.0",
-      "github_title": "DeathLink Bot v1.1.0",
-      "asset_url": "https://github.com/plagrizr/ArchipelagoDeathLinkBot/releases/download/v1.1.0/DeathLink-v1.1.0.exe",
+      "github_title": "StreamReaper v1.1.0",
+      "asset_url": "https://github.com/plagrizr/ArchipelagoDeathLinkBot/releases/download/v1.1.0/StreamReaper-v1.1.0.exe",
       "notes": [
         "Added About dialog — click the plagrizr logo to view bot info and creator link",
         "Replaced dashboard header logo with plagrizr branding",
