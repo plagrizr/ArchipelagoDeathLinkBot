@@ -1,6 +1,25 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "changelog": [
+    {
+      "version": "1.2.0",
+      "github_tag": "v1.2.0",
+      "github_title": "StreamReaper v1.2.0",
+      "asset_url": "https://github.com/plagrizr/ArchipelagoDeathLinkBot/releases/download/v1.2.0/StreamReaper-v1.2.0.exe",
+      "notes": [
+        "Added multi-room coin banks — pick a room before you connect: keep your persistent bank, or spin up a named session room so first-time viewers start on a level playing field instead of competing against months of banked coins",
+        "New Room bar on the dashboard — Select / Change / New Room / Delete, up to 5 rooms per host; the whole bar locks while any connection is active so a room can't change mid-session",
+        "Deleting a room wipes only that room's coins from the database; your default bank can never be deleted or renamed",
+        "Added automatic multiworld game-list capture — the bot reads the Archipelago room's players and games the moment your client connects (no setup, no credentials)",
+        "Added the DeathLink Games picker — tick which games are DeathLink-enabled; any game seen dying is auto-confirmed live (catches client-set games like Ocarina of Time)",
+        "Added viewer commands: !dlcommands (list commands), !archigames (all games, ** marks DeathLink), !dlgames (DeathLink games only), !dlgame <slot> (what a slot is playing)",
+        "Long game lists auto-split across multiple chat messages to stay under Twitch's 500-character limit",
+        "Added a viewer-commands reference panel to the dashboard so streamers can see what to tell chat",
+        "Fixed TikTok credits and commands silently failing when the coin room wasn't set — the host is now remembered across launches, so TikTok earns and spends work independently of Twitch",
+        "TikTok now logs dropped events and real connection errors instead of hiding them, plus a comment-stream heartbeat to confirm the watcher is live",
+        "API: added a rooms registry with a 5-room-per-host cap; rooms are stored as host values, so existing balances are never touched"
+      ]
+    },
     {
       "version": "1.1.0",
       "github_tag": "v1.1.0",
